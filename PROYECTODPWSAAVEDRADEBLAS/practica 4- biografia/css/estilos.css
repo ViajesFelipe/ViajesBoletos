@@ -1,0 +1,67 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "calibri light";
+}
+
+.uno{
+    
+    width: 50%;
+    border: 3px solid #48D1CC;
+}
+
+.uno h1,p,a{
+background: rgb(84, 158, 204);
+color: #000;
+margin: 10px;
+padding: 20px;
+}
+
+a{
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.contenedor{
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 400px;
+    background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+
+main{
+    background: rgb(0, 198, 212);
+    padding: 20px 30px;
+}
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius:50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #187cff;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius:50%;
+}
+
+footer{
+    background: teal ;
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
